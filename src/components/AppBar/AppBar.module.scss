@@ -1,0 +1,33 @@
+.inbox_container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+        font-family: Tahoma;
+        font-size: 1.7rem;
+        font-weight: 700;
+        margin-left: 1.5rem;
+        color: var(--title-color);
+    }
+
+}
+
+.inbox_icon,
+.search_container {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.search_input {
+    font-size: 1.4rem;
+    border: none;
+    outline: none;
+    padding: 0.5rem;
+}
+
+.search_icon {
+    border: none;
+    background-color: transparent;
+}

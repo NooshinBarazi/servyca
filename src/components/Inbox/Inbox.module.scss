@@ -1,0 +1,30 @@
+.inbox {
+    padding: 2.7rem;
+}
+
+
+
+.tabs_container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+.tab {
+    font-family: Tahoma;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: var(--tab-text);
+    outline: none;
+    background-color: transparent;
+    border: none;
+    border-bottom: 0.1rem solid var(--border-color);
+    width: 100%;
+    padding: 1rem;
+
+    &:focus {
+        color: var(--main-color);
+        border-bottom: 0.4rem solid var(--main-color);
+    }
+}
