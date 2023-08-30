@@ -1,0 +1,44 @@
+
+.call_page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  height: 100vh;
+}
+
+.call_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2rem;
+
+  h2{  font-family: Tahoma;
+    font-size: 2.6rem;
+    font-weight: 700;
+    color: var(--title-color);}
+
+    img{ width: 15rem;
+      height: 15rem;
+      border-radius: 50%;
+      margin-bottom: 1rem;}
+}
+
+
+.call_buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 70%;
+
+  button{
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 50%;
+    color: var(--message-bg-color);
+    cursor: pointer;
+    width: 7.6rem;
+    height: 7.6rem;
+    opacity: 54%;
+  }
+}
