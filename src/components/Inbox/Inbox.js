@@ -22,6 +22,7 @@ const Inbox = () => {
       </div>
 
       {isChat ? <ChatTab /> : <CallTab />}
+    
 
       <NavBar />
     </div>
